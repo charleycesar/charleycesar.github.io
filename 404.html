@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Charley Oliveira</title>
+    <!--
+      GitHub Pages serve 404.html para qualquer caminho que não seja arquivo.
+      Numa SPA isso mataria /escritos/algum-artigo. Aqui o caminho é guardado
+      em sessionStorage e o index.html o restaura antes do React montar.
+    -->
+    <script>
+      sessionStorage.setItem('rota', location.pathname + location.search + location.hash);
+      location.replace('/');
+    </script>
+  </head>
+  <body></body>
+</html>

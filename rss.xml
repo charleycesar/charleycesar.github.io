@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Escritos de Charley Oliveira</title>
+    <link>https://charleycesar.github.io</link>
+    <description>Notas de engenharia sobre React Native, Node e sistemas em produção.</description>
+    <language>pt-BR</language>
+    <atom:link href="https://charleycesar.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+
+  </channel>
+</rss>
